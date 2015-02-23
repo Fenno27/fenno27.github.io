@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #faf8ef;
+  background-size: contain;
   color: #8f7a66 ;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -299,6 +300,7 @@ hr {
 
 .tile {
   position: absolute;
+
   -webkit-transition: 100ms ease-in-out;
   -moz-transition: 100ms ease-in-out;
   transition: 100ms ease-in-out;
@@ -318,11 +320,13 @@ hr {
     background-size: 150px 120px;
     background-repeat: no-repeat;
     background-image: url('../images/4.jpg');
+    background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     color: #FFFFFF;
     background: #ede0c8;
     background-image: url('../images/64.jpg');
+    background-size: contain;
     background-repeat: no-repeat;
     background-size: 150px 120px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -330,6 +334,7 @@ hr {
     color: #FFFFFF;
      background: #ede0c8;
     background-image: url('../images/2.jpg');
+    background-size: contain;
     background-repeat: no-repeat;
     background-size: 150px 120px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -337,6 +342,7 @@ hr {
     color: #FFFFFF;
      background: #ede0c8;
     background-image: url('../images/16.jpg');
+    background-size: contain;
     background-repeat: no-repeat;
     background-size: 150px 120px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -345,6 +351,7 @@ hr {
      background: #ede0c8;
     background-image: url('../images/32.jpg');
     background-repeat: no-repeat;
+    background-size: contain;
     background-size: 150px 120px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-64 .tile-inner {
