@@ -310,12 +310,14 @@ hr {
   .tile .tile-inner {
     border-radius: 3px;
     background: #eee4da;
+    position: relative; 
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 25px; }
   .tile.tile-2 .tile-inner {
-    color: #FFFFFF;
+    color: #7871AB;
+    text-align: right;
     background: #eee4da;
     background-size: 150px 120px;
     background-repeat: no-repeat;
@@ -323,36 +325,38 @@ hr {
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    color: #FFFFFF;
+    color: #D96767;
     background: #ede0c8;
-    background-image: url('../images/64.jpg');
-    background-size: contain;
     background-repeat: no-repeat;
     background-size: 150px 120px;
+    background-image: url('../images/64.jpg');
+    background-size: contain;
+    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #FFFFFF;
      background: #ede0c8;
+    background-repeat: no-repeat;
+    background-size: 150px 120px;
     background-image: url('../images/2.jpg');
     background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 150px 120px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-16 .tile-inner {
-    color: #FFFFFF;
+    color: #D03763;
+    text-align: left;
      background: #ede0c8;
     background-image: url('../images/16.jpg');
-    background-size: contain;
     background-repeat: no-repeat;
     background-size: 150px 120px;
+    background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-32 .tile-inner {
     color: #FFFFFF;
      background: #ede0c8;
     background-image: url('../images/32.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
     background-size: 150px 120px;
+    background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-64 .tile-inner {
     color: #FFFFFF;
@@ -360,6 +364,7 @@ hr {
     background-image: url('../images/exch.jpg');
     background-repeat: no-repeat;
     background-size: 150px 120px;
+    background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-128 .tile-inner {
 
@@ -368,6 +373,7 @@ hr {
     background-size: 150px 120px;
     background-image: url('../images/128.jpg');
     background-repeat: no-repeat;
+    background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -379,6 +385,7 @@ hr {
     background-image: url('../images/256.jpg');
     background-repeat: no-repeat;
     background-size: 150px 120px;
+    background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -390,6 +397,7 @@ hr {
     background-image: url('../images/512.jpg');
     background-repeat: no-repeat;
     background-size: 150px 120px;
+    background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -401,6 +409,7 @@ hr {
     background-image: url('../images/1024.jpg');
     background-repeat: no-repeat;
     background-size: 150px 120px;
+    background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -412,6 +421,7 @@ hr {
     background-image: url('../images/clipart.jpg');
     background-repeat: no-repeat;
     background-size: 150px 120px;
+    background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
