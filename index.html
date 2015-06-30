@@ -15,6 +15,13 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+    <script>
+      function getOption() {
+        var obj = document.getElementById("mySelect");
+        document.getElementById("demo").innerHTML = 
+        obj.options[obj.selectedIndex].text;
+  }
+  </script>
 </head>
 <body>
   <div class="container">
@@ -25,6 +32,15 @@
         <div class="best-container">0</div>
       </div>
     </div>
+
+    Select Theme:
+    <select id="my_select" name="select" style="color:#8f7a66;"> 
+      <option>Cool</option>
+      <option>Interesting</option>
+      <option>select me!</option>
+      <option>something else...?</option>
+      <input type="button" onclick="getOption()" value="Click Me!">
+    </select><br><p id="demo"></p>
 
     <div class="above-game">
       <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
@@ -81,7 +97,8 @@
     </p>
     <hr>
     <p>
-    Created by <a href="https://www.facebook.com/htooeainlwin.12" target="_blank">Htoo Eain Lwin.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+    Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli<br>
+    Add photos by <a href="https://www.facebook.com/htooeainlwin.12" target="_blank">Htoo Eain Lwin.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
     </p>
   </div>
 
@@ -100,3 +117,4 @@
   <p align="center">Thanks to the owner of the Haru <strong> <a href="https://www.facebook.com/gugu.yinmonaye">Yin Mon Aye.</a>
   </footer>
 </html>
+
