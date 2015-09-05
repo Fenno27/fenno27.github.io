@@ -31,11 +31,11 @@ ul.nav, .jumbotron h1 {
 
 }
 .navbar-inverse .navbar-brand:hover{
-  color: #e74c3c;
+  color: #00CC99;
   font-size: 22px;
 }
 .navbar-inverse .navbar-nav li a:hover{
-  color: #e74c3c;
+  color: #00CC99;
   font-size: 18px;
 } 
 .jumbotron h1 {
@@ -76,7 +76,7 @@ ul.nav, .jumbotron h1 {
 }
 .homepage h2, .homepage h3{
    
-   color: #e74c3c;
+   color: #009999;
  font-family: 'Arvo', courier, serif;
   
 }
@@ -89,7 +89,7 @@ ul.nav, .jumbotron h1 {
   line-height: 40px;
 }
 .homepage a{
-  color: #e74c3c;
+  color: #00CC99;
 }
 .footer {
   background-color: #2B2B2B;
@@ -102,7 +102,7 @@ ul.nav, .jumbotron h1 {
   color: #eee;
 }
 .jumbotron_span{
-  color: #e74c3c;
+  color: #009999;
 }
 
 #about{
@@ -114,12 +114,12 @@ ul.nav, .jumbotron h1 {
 
 #contact{
   padding-top: 30px;
-  background: #e74c3c ;
+  background: #009999 ;
   padding-bottom: 20px; 
 }
 .aboutme{
 
-  color: #e74c3c;
+  color: #009999;
 }
 #mylife{
 padding-top: 30px;
